@@ -28,17 +28,3 @@ def ai_move(board, num_searches, search_length):
                     
     search_board, legal, score = moves[np.argmax(scores)](board)
     return search_board, legal
-
-def ai_play(board):
-    move_number = 0
-    legal = True
-    while legal:
-        move_number += 1
-        num_sims = 1000
-        search_len = 4
-        board, legal = ai_move(board, num_sims, search_len)
-        if legal:
-            board = add_two(board)
-        if check_for_win(board):
-            legal = False
-    return np.amax(board)
