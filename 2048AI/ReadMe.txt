@@ -8,4 +8,5 @@ How to execute:
 3. Enter:
 > py game_display.py
 4. Press "P" on your keyboard with the 2048 window selected to begin AI gameplay.
-	Do not navigate away from the window during AI gameplay. Tkinter will cause the window to hang. If this happens, simply force interupt the program by pressing "control + c" to rise a keyboard interuption(For windows) or force close the window by clicking the x button on the top right and begin again.
+	Do not navigate away from the window during AI gameplay. Tkinter will cause the window to hang. If this happens, simply force interupt the program by pressing
+	"control + c" to rise a keyboard interuption(For windows) or force close the window by clicking the x button on the top right and begin again.
